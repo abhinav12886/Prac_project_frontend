@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 40%
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{
+    /* background-color: violet; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("/img/background/dj-johnson-4JHy5rxsF5g-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
