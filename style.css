@@ -1,46 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
 }
 
-.logo{
+/* Navbar */
+
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     border: 2px solid white;
     border-radius: 50px;
     width: 40%
 }
 
-.navbar{
+.navbar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
-.nav-list{
+.nav-list {
     width: 50%;
     /* background-color: black; */
     display: flex;
     align-items: center;
 }
 
-.nav-list li{
+.nav-list li {
     list-style: none;
     padding: 26px 30px;
 }
 
-.nav-list li a{
+.nav-list li a {
     text-decoration: none;
     color: white;
 }
-.nav-list li a:hover{
+
+.nav-list li a:hover {
     color: grey;
 }
 
-.rightNav{
+.rightNav {
     /* background-color: violet; */
     width: 50%;
     display: flex;
@@ -48,8 +57,45 @@
     justify-content: flex-end;
 }
 
-.background{
+.background {
     background: rgba(0, 0, 0, 0.7) url("/img/background/dj-johnson-4JHy5rxsF5g-unsplash.jpg");
     background-size: cover;
     background-blend-mode: darken;
+}
+
+/* First Section */
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstHalf {
+    width: 80%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf {
+    width: 30%;
+
+}
+.secondHalf img{
+    width: 90%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
 }
