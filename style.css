@@ -6,6 +6,10 @@
     /* box-sizing: border-box; */
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Navbar */
 
 .logo {
@@ -30,7 +34,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
-    height: 478px;
+    
 }
 
 .nav-list {
@@ -149,12 +153,12 @@
 
 /* Second Section */
 .section {
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 80%;
-    margin: auto;
+    margin: 18px auto;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -180,7 +184,7 @@
 
 .contact{
     background-color: #f6f5f4;
-    height: 80vh;
+    height: 68vh;
 }
 
 .text-center{
@@ -241,10 +245,17 @@
     .navbar{
         flex-direction: column;
         transition: all 0.7s ease-out;
+        height: 478px;
     }
     .rightNav{
         text-align: center;
     }
+
+    .box-main{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
     #search{
         width: 90%;
     }
@@ -256,5 +267,29 @@
     }
     .v-class-resp{
         opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .secondHalf img{
+        border-radius: 400px;
+        width: 55%;
+    }
+    .paras{
+        padding: 0px 1px;
+        
     }
 }
