@@ -30,6 +30,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    height: 478px;
 }
 
 .nav-list {
@@ -216,12 +217,14 @@
     color: white;
 }
 
+/* Hamburger */
+
 .burger{
     display: none;
     position: absolute;
     cursor: pointer;
     right: 5%;
-    top: 15px;     
+    top: 22px;     
 
 }
 .line{
@@ -237,14 +240,21 @@
     }
     .navbar{
         flex-direction: column;
+        transition: all 0.7s ease-out;
     }
     .rightNav{
         text-align: center;
     }
     #search{
-        width: 100%;
+        width: 90%;
     }
     .burger{
         display: block; 
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
     }
 }
