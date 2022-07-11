@@ -170,22 +170,22 @@
 
 .text-center{
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 34px;
 }
 
 .form{
     max-width: 500px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
-.form input{
+.form-input{
     width: 100%;
     font-size: 19px;
     border: 2px solid gray;
     border-radius: 6px;
-    margin:14px 0px;
+    margin:5px 0px;
     padding: 5px 3px;
     text-align: center;
 }
