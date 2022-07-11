@@ -46,6 +46,8 @@
 .nav-list li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    
 }
 
 .nav-list li a:hover {
@@ -120,6 +122,7 @@
     background: none;
     color: white;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-dark{
@@ -127,9 +130,20 @@
     border: 2px solid gray;
 }
 
+.btn-dark:hover{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
 .btn-sm {
     padding: 6px 10px;
     vertical-align: middle;
+}
+.btn-sm:hover{
+    background-color: #f6f5f4;
+    color: black;
+    border: 2px solid #f6f5f4
 }
 
 /* Second Section */
@@ -165,7 +179,7 @@
 
 .contact{
     background-color: #f6f5f4;
-    height: 60vh;
+    height: 80vh;
 }
 
 .text-center{
@@ -188,4 +202,16 @@
     margin:5px 0px;
     padding: 5px 3px;
     text-align: center;
+}
+
+/* Footer */
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
